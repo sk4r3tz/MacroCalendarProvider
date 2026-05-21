@@ -1,0 +1,53 @@
+name: Update Investment Calendar
+
+# Runs the generator on a schedule, regenerates watchlist.ics, and commits
+# it back to the repo so Google Calendar can subscribe to the raw file URL:
+#   https://raw.githubusercontent.com/USERNAME/REPO/main/watchlist.ics
+#
+# Setup:
+#   1. Push event_calendar.py, providers.py, ics_writer.py, watchlist.csv
+#      to the repo root.
+#   2. Repo Settings -> Secrets and variables -> Actions -> New repository
+#      secret, name it FINNHUB_API_KEY.
+#   3. Commit this file as .github/workflows/calendar.yml
+
+on:
+  schedule:
+    # cron is in UTC. 11:00 UTC = 18:00 Asia/Bangkok.
+    - cron: '0 11 * * *'
+  workflow_dispatch:        # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write           # needed to commit the updated .ics back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Generate calendar
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        # GitHub Actions runs on a datacenter IP, which Yahoo rate-limits
+        # aggressively. Finnhub (earnings) is unaffected. If yfinance
+        # dividend lookups keep failing here, add --no-dividends below.
+        run: python event_calendar.py --watchlist watchlist.csv --output watchlist.ics
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name  "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add watchlist.ics
+          # Commit only if the file actually changed (avoids empty-commit error).
+          git diff --staged --quiet || git commit -m "Update calendar $(date -u +%Y-%m-%d)"
+          git push
