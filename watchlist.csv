@@ -1,0 +1,9 @@
+ticker,company_name,notes
+AAPL,Apple Inc.,
+MSFT,Microsoft Corp.,
+NVDA,NVIDIA Corp.,
+GOOGL,Alphabet Inc.,
+JPM,JPMorgan Chase,dividend payer
+# Rows whose ticker starts with '#' are ignored. Add or remove freely.
+# The 'company_name' and 'notes' columns are not used yet -- they are here
+# so the schema can grow (per-ticker event toggles, etc.) without breaking.
