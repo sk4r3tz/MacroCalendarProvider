@@ -6,116 +6,116 @@ METHOD:PUBLISH
 X-WR-CALNAME:Investment Watchlist
 BEGIN:VEVENT
 UID:earnings-GOOGL-2026Q2@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20655
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:GOOGL — Q2 2026 Earnings (estimated)
 DESCRIPTION:GOOGL earnings release — Q2 2026\nTiming: After market close\
  nEPS estimate: 2.9515\nRevenue estimate: 120\,128\,899\,114\nDate is an es
- timate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\n
+ timate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\n
  https://finance.yahoo.com/quote/GOOGL
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-TSLA-2026Q2@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20656
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 SUMMARY:TSLA — Q2 2026 Earnings (estimated)
 DESCRIPTION:TSLA earnings release — Q2 2026\nTiming: After market close\n
  EPS estimate: 0.4535\nRevenue estimate: 24\,766\,598\,906\nDate is an esti
- mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nht
+ mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nht
  tps://finance.yahoo.com/quote/TSLA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-META-2026Q2@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20662
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:META — Q2 2026 Earnings (estimated)
 DESCRIPTION:META earnings release — Q2 2026\nTiming: After market close\n
  EPS estimate: 7.3216\nRevenue estimate: 61\,316\,609\,184\nDate is an esti
- mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nht
+ mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nht
  tps://finance.yahoo.com/quote/META
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-MSFT-2026Q4@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20662
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:MSFT — Q4 2026 Earnings (estimated)
 DESCRIPTION:MSFT earnings release — Q4 2026\nTiming: After market close\n
  EPS estimate: 4.3265\nRevenue estimate: 89\,370\,759\,268\nDate is an esti
- mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nht
+ mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nht
  tps://finance.yahoo.com/quote/MSFT
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-AAPL-2026Q3@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20663
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:AAPL — Q3 2026 Earnings (estimated)
 DESCRIPTION:AAPL earnings release — Q3 2026\nTiming: After market close\n
  EPS estimate: 1.9304\nRevenue estimate: 110\,751\,547\,827\nDate is an est
- imate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nh
+ imate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nh
  ttps://finance.yahoo.com/quote/AAPL
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-AMZN-2026Q2@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20663
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:AMZN — Q2 2026 Earnings (estimated)
 DESCRIPTION:AMZN earnings release — Q2 2026\nTiming: After market close\n
  EPS estimate: 1.851\nRevenue estimate: 200\,171\,659\,612\nDate is an esti
- mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nht
+ mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nht
  tps://finance.yahoo.com/quote/AMZN
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dividend-MSFT-2026Q3@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20685
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:MSFT — Ex-Dividend Date
 DESCRIPTION:MSFT ex-dividend date.\nOwn the stock before this date to recei
- ve the dividend.\nSource: yfinance / Yahoo Finance. Pulled 2026-06-26.
+ ve the dividend.\nSource: yfinance / Yahoo Finance. Pulled 2026-06-27.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-NVDA-2027Q2@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20690
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:NVDA — Q2 2027 Earnings (estimated)
 DESCRIPTION:NVDA earnings release — Q2 2027\nTiming: After market close\n
  EPS estimate: 2.124\nRevenue estimate: 93\,501\,734\,064\nDate is an estim
- ate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nhtt
+ ate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nhtt
  ps://finance.yahoo.com/quote/NVDA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:earnings-TSLA-2026Q3@event-calendar
-DTSTAMP:20260626T131352Z
+DTSTAMP:20260627T121044Z
 SEQUENCE:20746
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:TSLA — Q3 2026 Earnings (estimated)
 DESCRIPTION:TSLA earnings release — Q3 2026\nTiming: After market close\n
  EPS estimate: 0.5111\nRevenue estimate: 26\,980\,080\,404\nDate is an esti
- mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-26.\nht
+ mate and may shift by a few days.\nSource: Finnhub. Pulled 2026-06-27.\nht
  tps://finance.yahoo.com/quote/TSLA
 TRANSP:TRANSPARENT
 END:VEVENT
